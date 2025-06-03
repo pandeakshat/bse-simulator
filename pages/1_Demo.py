@@ -9,7 +9,7 @@ from BSE import market_session
 st.title("Demo - BSE Simulator")
 st.sidebar.info("Important Information")
 st.sidebar.warning("I do not own the original BSE code. This project is an enhancement of the original work by Dave Cliff, and it is intended for educational purposes only. Please refer to the original BSE documentation for more information on its usage and limitations.")
-st.sidebar.info("For more information, please visit the [GitHub Repository](https://github.com/pandeakshat/bse-simulation).")
+st.sidebar.info("For more information, please visit the [GitHub Repository](https://github.com/pandeakshat/bse-simulator).")
 st.sidebar.error("[Donate (PandeAkshat)](https://ko-fi.com/pandeakshat)")
 mode = st.radio("Choose Demo Mode:",
          options=["Default - ZIP", "Default - Step-by-Step", "Default + Custom Trader"],
@@ -550,7 +550,7 @@ elif mode == "Default - Step-by-Step":
     elif step == 'Next Steps':
         st.subheader("Next Steps")
         st.write("You can continue to explore the different market sessions and their effects on prices through Workshop & Simulator.")
-        st.write("If you are able to contribute to the BSE Simulator, please consider contributing to the project on [Github](https://github.com/pandeakshat/bse-simulation).")
+        st.write("If you are able to contribute to the BSE Simulator, please consider contributing to the project on [Github](https://github.com/pandeakshat/bse-simulator).")
         st.write("More customer pages will be added in the future to enhance the simulator experience.")
         st.write("Thank you for using the BSE Simulator. We hope you find it useful for your market simulations and analysis.")
 

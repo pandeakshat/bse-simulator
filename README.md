@@ -1,10 +1,10 @@
-# BSE Interactive Simulation Platform
+# BSE Simulator
 
 ---
 
 ## Overview
 
-This project presents the **BSE Interactive Simulation Platform**, an enhanced and interactive version of the classic Bristol Stock Exchange (BSE) simulation. Developed by Dave Cliff, the original BSE simulation is a simple, single-threaded Python tool designed to help students understand Level 2 market data and develop automated trading strategies.
+This project presents the **BSE Simulator*, an enhanced and interactive version of the classic Bristol Stock Exchange (BSE). Developed by Dave Cliff, the original BSE simulation is a simple, single-threaded Python tool designed to help students understand Level 2 market data and develop automated trading strategies.
 
 Our platform amplifies BSE's educational impact by providing a **user-friendly, interactive experience** built with Streamlit. It aims to make complex market dynamics accessible, engaging, and extensible for learning and experimentation.
 
@@ -38,8 +38,8 @@ To get this interactive simulation up and running on your machine, follow these 
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/pandeakshat/bse-simulation.git](https://github.com/pandeakshat/bse-simulation.git)
-    cd bse-simulation
+    git clone [https://github.com/pandeakshat/bse-simulator.git](https://github.com/pandeakshat/bse-simulator.git)
+    cd bse-simulator
     ```
 
 2.  **Create a virtual environment (recommended):**
@@ -67,7 +67,7 @@ To get this interactive simulation up and running on your machine, follow these 
 5.  **Run the Streamlit application:**
     Assuming your main Streamlit app file is named `app.py` (or similar, adjust if different):
     ```bash
-    streamlit run app.py
+    streamlit run Home.py
     ```
     This command will open the application in your web browser.
 
