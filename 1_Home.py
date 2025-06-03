@@ -16,5 +16,9 @@ def home():
         - Community-Driven Platform
     """)
 
+    st.sidebar.info("Important Information")
+    st.sidebar.warning("I do not own the original BSE code. This project is an enhancement of the original work by Dave Cliff, and it is intended for educational purposes only. Please refer to the original BSE documentation for more information on its usage and limitations.")
+    st.sidebar.info("For more information, please visit the [GitHub Repository](https://github.com/pandeakshat/bse-simulation).")
+    st.sidebar.error("[Donate (PandeAkshat)](https://ko-fi.com/pandeakshat)")
 if __name__ == "__main__":
     home()  
