@@ -75,7 +75,7 @@ To get this interactive simulation up and running on your machine, follow these 
 
 ## Project Structure (Example)
 
-.
+
 ├── app.py           # Main Streamlit application file (combining Home and Demo)
 
 ├── BSE.py           # Original BSE simulation engine (or its equivalent)
@@ -100,13 +100,15 @@ Specifically, the file dump paths within BSE.py have been modified to automatica
 
 Example of the modification:
 Python
-
+```bash
 # Original (example)
 bdump = open(session_id+'_blotters.csv', 'w')
+```
 
+```bash
 # Modified
 bdump = open('data/' + session_id+'_blotters.csv', 'w')
-
+```
 
 This ensures that all simulation output files are neatly organized in the data/ folder, which you're instructed to create when running the application locally. If you encounter any issues related to file output during the simulation, please ensure you are using the BSE.py file provided within this repository.
 
