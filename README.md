@@ -1,5 +1,3 @@
-### **BSE Simulator**
-```md
 # BSE Simulator
 
 > Interactive academic simulator reproducing Bristol Stock Exchange dynamics.
